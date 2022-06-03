@@ -83,6 +83,7 @@ body {
 .nav-bar {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     background-color: rgb(1, 1, 1);
     height: fit-content;
@@ -103,3 +104,5 @@ body {
     color: rgb(233, 221, 221);
     font-size: 200%;
 }
+
+
