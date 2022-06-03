@@ -3,23 +3,40 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    padding: 0%;
+    margin: 0%;
 }
 
-.logo-name-title {
-    margin-top: 8%;
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(1, 1, 1);
+    height: fit-content;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
+}
+
+.nav-btn {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: x-large;
 }
 
 .personal-logo {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 8%
+    width: 8%;
+    margin-top: 2%;
 }
 
 .my-name {
     text-align: center;
     color: rgb(233, 221, 221);
     font-size: 700%;
+    margin-top: 8%;
     padding-bottom: 0%;
     margin-bottom: 0%;
     transform: scale(0.94);
