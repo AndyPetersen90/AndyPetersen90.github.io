@@ -7,21 +7,49 @@ body {
     margin: 0%;
 }
 
-.nav-bar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color: rgb(1, 1, 1);
-    height: fit-content;
-    width: 100%;
-    padding: 0%;
-    margin: 0%;
+@keyframes scale {
+    100% {
+      transform: scale(1);
+    }
+}
+.fade-in-text, .nav-bar, .nav-btn {
+    display: inline-block;
+    opacity: 0;
+    filter: blur(4px);
+}
+.fade-in-text:nth-child(1) {
+    animation: fade-in 1.5s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+.fade-in-text:nth-child(2) {
+    animation: fade-in 1.5s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+.fade-in-text:nth-child(3) {
+    animation: fade-in 1.5s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+.nav-bar:nth-child(1) {
+    animation: fade-in 1.5s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+.nav-btn:nth-child(1) {
+    animation: fade-in 1.5s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+.nav-btn:nth-child(2) {
+    animation: fade-in 1.5s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+.nav-btn:nth-child(3) {
+    animation: fade-in 1.5s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+.nav-btn:nth-child(4) {
+    animation: fade-in 1.5s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+.nav-btn:nth-child(5) {
+    animation: fade-in 1.5s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
 
-.nav-btn {
-    color: aliceblue;
-    text-decoration: none;
-    font-size: x-large;
+@keyframes fade-in {
+    100% {
+      opacity: 1;
+      filter: blur(0);
+    }
 }
 
 .personal-logo {
@@ -51,31 +79,23 @@ body {
     margin: 0%;
 }
 
-@keyframes scale {
-    100% {
-      transform: scale(1);
-    }
-}
-.fade-in-text {
-    display: inline-block;
-    opacity: 0;
-    filter: blur(4px);
-}
-.fade-in-text:nth-child(1) {
-    animation: fade-in 1.5s 0.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-.fade-in-text:nth-child(2) {
-    animation: fade-in 1.5s 0.2s forwards cubic-bezier(0.11, 0, 0.5, 0);
-}
-.fade-in-text:nth-child(3) {
-    animation: fade-in 1.5s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: rgb(1, 1, 1);
+    height: fit-content;
+    width: 100%;
+    padding: 0%;
+    margin: 0%;
 }
 
-@keyframes fade-in {
-    100% {
-      opacity: 1;
-      filter: blur(0);
-    }
+.nav-btn {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: x-large;
+    
 }
 
 .my-slogan {
