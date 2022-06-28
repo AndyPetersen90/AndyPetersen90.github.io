@@ -52,6 +52,10 @@ body {
     }
 }
 
+.logo-name-title {
+    margin-bottom: 30%;
+}
+
 .personal-logo {
     display: block;
     margin-left: auto;
@@ -105,4 +109,42 @@ body {
     font-size: 200%;
 }
 
+.about-section {
+    background-color: black;
+}
 
+.about-title {
+    color: aliceblue;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.tech-stack-section {
+    background-color: black;
+}
+
+.tech-stack-title {
+    color: aliceblue;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.project-section {
+    background-color: black;
+}
+
+.project-title {
+    color: aliceblue;
+    text-align: center;
+    font-size: xx-large;
+}
+
+.content-section {
+    background-color: black;
+}
+
+.contact-title {
+    color: aliceblue;
+    text-align: center;
+    font-size: xx-large;
+}
