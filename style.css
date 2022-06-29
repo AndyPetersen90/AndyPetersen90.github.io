@@ -104,7 +104,8 @@ body {
 .nav-btn {
     color: aliceblue;
     text-decoration: none;
-    font-size: x-large;
+    font-size: 3vh;
+    width: auto;
     
 }
 
@@ -145,7 +146,7 @@ body {
 
 .about-me-paragraphs {
     color: aliceblue;
-    font-size: x-large;
+    font-size: 2.5vh;
 }
 
 .about-me-photo-div {
@@ -155,7 +156,7 @@ body {
     justify-content: flex-start;
     align-content: center;
     width: 50vw;
-    height: fit-content;
+    height: auto;
     margin: 0%;
     padding: 0%;
 }
