@@ -209,12 +209,28 @@ body {
 
 .project-section {
     background-color: black;
+    height: fit-content;
 }
 
 .project-title {
     color: aliceblue;
     text-align: center;
     font-size: xx-large;
+}
+
+.completed-projects-section {
+    padding: 0vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-images {
+    margin: 2vw;
+    width: 25vw;
+    height: auto;
 }
 
 .content-section {
