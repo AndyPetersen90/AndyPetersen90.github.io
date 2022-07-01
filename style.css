@@ -118,10 +118,11 @@ body {
 .about-section {
     background-color: black;
     width: 100vw;
-    height: fit-content;
+    height: 100vh;
 }
 
 .about-title {
+    padding-top: 4vh;
     color: aliceblue;
     text-align: center;
     font-size: xx-large;
@@ -187,6 +188,7 @@ body {
 }
 
 .tech-stack-title {
+    padding-top: 4vh;
     color: aliceblue;
     text-align: center;
     font-size: xx-large;
@@ -214,6 +216,7 @@ body {
 }
 
 .project-title {
+    padding-top: 4vh;
     color: aliceblue;
     text-align: center;
     font-size: xx-large;
